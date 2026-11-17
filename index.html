@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ZelaBairro - Módulo tátil para placa de rua</title>
+<style>
+  body { font-family: Arial, Helvetica, sans-serif; margin: 0; color: #222; background: #f6f7f9; }
+  header { background: #1e3f7a; color: #fff; padding: 28px 20px; }
+  header h1 { margin: 0 0 6px; font-size: 26px; }
+  header p { margin: 0; opacity: .9; }
+  main { max-width: 920px; margin: 0 auto; padding: 20px; }
+  section { background: #fff; border-radius: 8px; padding: 18px 22px; margin-bottom: 16px; }
+  h2 { color: #1e3f7a; font-size: 20px; margin-top: 0; }
+  img { max-width: 100%; border: 1px solid #ddd; border-radius: 6px; }
+  .duas { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  @media (max-width: 700px) { .duas { grid-template-columns: 1fr; } }
+  a { color: #1e57b8; }
+  ul { padding-left: 20px; }
+  footer { text-align: center; font-size: 13px; color: #666; padding: 20px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Módulo tátil para placa de rua</h1>
+  <p>ZelaBairro · Global Solution 2026.2 CitizenTech · FIAP 4ESPA · Project-Based Maker Lab (Profª Thais)</p>
+</header>
+<main>
+  <section>
+    <h2>O problema</h2>
+    <p>A placa de nome de rua (padrão CET-SP, 64 x 30 cm) fica acima de 2,10 m e só tem informação visual. Quem é cego ou tem baixa visão não consegue saber em que rua está, e quando a placa está apagada ou torta não tem um jeito simples de avisar alguém.</p>
+  </section>
+
+  <section>
+    <h2>A proposta</h2>
+    <p>Um módulo de 170 x 95 mm preso na mesma coluna, na altura da mão (1,20 m). A placa original continua no lugar.</p>
+    <ul>
+      <li>nome da rua em relevo e em braille</li>
+      <li>seta em relevo com o sentido da numeração</li>
+      <li>espaço pra adesivo de QR code que abre o registro de ocorrência no ZelaBairro</li>
+      <li>encaixe na coluna de 63,5 mm, preso com abraçadeira, sem furar</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Antes e depois</h2>
+    <img src="Imagens/antes_depois_onshape.png" alt="Antes e depois">
+  </section>
+
+  <section>
+    <h2>Modelos no Onshape</h2>
+    <div class="duas">
+      <div><img src="Imagens/onshape_original.jpg" alt="Modelo original"><p>Original: coluna com as placas</p></div>
+      <div><img src="Imagens/onshape_redesign_frente.jpg" alt="Redesign"><p>Redesign: módulo tátil</p></div>
+    </div>
+    <img src="Imagens/onshape_redesign_tras.jpg" alt="Parte de trás do módulo">
+    <p>Parte de trás: encaixe côncavo na coluna e passagens da abraçadeira.</p>
+  </section>
+
+  <section>
+    <h2>Arquivos</h2>
+    <ul>
+      <li><a href="https://github.com/vitorpnascimento/GS2026-ZelaBairro-MakerLab/tree/main/CAD/Redesign">Módulo tátil (STEP e STL)</a></li>
+      <li><a href="https://github.com/vitorpnascimento/GS2026-ZelaBairro-MakerLab/tree/main/CAD/Original">Original: coluna e placas (STEP e STL)</a></li>
+      <li><a href="https://github.com/vitorpnascimento/GS2026-ZelaBairro-MakerLab">Repositório completo</a></li>
+    </ul>
+    <p>Peça baixada e creditada: <a href="https://makerworld.com/models/1781504">BRACE PVC PIPE CLAMPS with hinge</a>, de Mihai B Mike (CC BY-NC-SA).</p>
+  </section>
+
+  <section>
+    <h2>ODS</h2>
+    <p>ODS 11 - Cidades e Comunidades Sustentáveis · ODS 10 - Redução das Desigualdades</p>
+  </section>
+
+  <section>
+    <h2>Integrantes</h2>
+    <p>Gabriel Leão da Silva (RM552642) · Matheus Farias (RM554254) · Miguel Mauricio Parrado Patarroyo (RM554007) · Pedro Chaves (RM553988) · Vitor Pinheiro Nascimento (RM553693)</p>
+  </section>
+</main>
+<footer>FIAP · Global Solution 2026.2 · ZelaBairro</footer>
+</body>
+</html>
