@@ -17,7 +17,7 @@ Um módulo pequeno (170 x 95 mm) preso na mesma coluna da placa, na altura da m�
 - seta em relevo indicando o sentido da numeração
 - rebaixo de 40 x 40 mm para um adesivo de QR code que abre o registro de ocorrência no ZelaBairro
 - borda e cantos arredondados
-- sela atrás para a coluna de 2 1/2" (63,5 mm), presa sem furar nada
+- atrás, duas bases para as abraçadeiras que prendem o módulo na coluna de 2 1/2" (63,5 mm), sem furar a coluna
 
 A placa original continua no lugar. O módulo só acrescenta a informação tátil e o acesso ao ZelaBairro.
 
@@ -31,21 +31,24 @@ A placa original continua no lugar. O módulo só acrescenta a informação tát
 |---|---|
 | ![Original](Imagens/onshape_original.jpg) | ![Redesign](Imagens/onshape_redesign_frente.jpg) |
 
-Parte de trás do módulo (encaixe na coluna e passagens da abraçadeira):
+Parte de trás do módulo (bases das abraçadeiras) e o módulo montado na coluna:
 
 ![Trás](Imagens/onshape_redesign_tras.jpg)
+
+![Montado](Imagens/onshape_abracadeiras.jpg)
 
 ## Arquivos
 
 - `CAD/Original/` - coluna com as placas (STEP e STL)
 - `CAD/Redesign/` - módulo tátil (STEP e STL, pronto pra imprimir)
+- `CAD/Abracadeira_MakerWorld/` - abraçadeira baixada e ajustada pra 63 mm (crédito abaixo)
 - `Imagens/` - prints do Onshape e comparação
 
 Impressão sugerida: PLA ou PETG, camada 0,2 mm, 3 paredes, 20% de preenchimento, face do texto pra cima, sem suporte.
 
 ## Peça baixada (crédito)
 
-Abraçadeira usada na fixação: "BRACE PVC PIPE CLAMPS with hinge (DN50, 63mm, etc)", de Mihai B Mike, licença CC BY-NC-SA. Ajustada no Parametric Model Maker para a coluna de 63,5 mm.
+Abraçadeira usada na fixação: "BRACE PVC PIPE CLAMPS with hinge (DN50, 63mm, etc)", de Mihai B Mike, licença CC BY-NC-SA. Gerada no Parametric Model Maker com diâmetro interno de 63 mm e base de 30 mm, para a coluna de 63,5 mm. São duas por módulo, parafusadas nas bases de trás com parafusos M4. Mantida com a mesma licença (CC BY-NC-SA).
 https://makerworld.com/models/1781504
 
 ## ODS
