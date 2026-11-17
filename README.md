@@ -5,9 +5,11 @@ Disciplina: Project-Based Maker Lab - Profª Thais Aparecida Fernandes Kabuchi
 
 Página do projeto: https://vitorpnascimento.github.io/GS2026-ZelaBairro-MakerLab/
 
+Vídeo (1min36): https://youtu.be/QdJ4Rl47I1k
+
 ## O problema
 
-A placa de nome de rua (padrão CET-SP, 64 x 30 cm) fica no alto, acima de 2,10 m, e só tem informação visual. Quem é cego ou tem baixa visão não consegue saber em que rua está, e quando a placa está apagada ou torta não tem um jeito simples de avisar alguém.
+A placa de nome de rua fica no alto (a que a gente mediu, na Al. Ribeirão Preto x R. Pamplona, tem 68 x 30 cm e está a 3,12 m do chão) e só tem informação visual. Quem é cego ou tem baixa visão não consegue saber em que rua está, e quando a placa está apagada ou torta não tem um jeito simples de avisar alguém.
 
 ## A proposta
 
