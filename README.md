@@ -5,6 +5,8 @@ Disciplina: Project-Based Maker Lab - Profª Thais Aparecida Fernandes Kabuchi
 
 Página do projeto: https://vitorpnascimento.github.io/GS2026-ZelaBairro-MakerLab/
 
+Relatório (PDF da entrega): [Relatorio_MakerLab_ZelaBairro.pdf](Relatorio_MakerLab_ZelaBairro.pdf)
+
 Vídeo (1min36): https://youtu.be/QdJ4Rl47I1k
 
 MakerWorld: https://makerworld.com/models/3638426
